@@ -18,7 +18,12 @@ html {
     overflow-x: hidden;}
 body{
     background: var(--bg-color); 
-    color: var(--text-color);}
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0px;}
+    
 .header {
     position: fixed; 
     top: 0;
@@ -84,7 +89,8 @@ section {
 .home-content .social-media a:hover {
     background: #0a8078;
     color: #0a8078;
-    transition-delay: .1s;
+    width: 6.5rem;
+    height: 6.5rem;
     box-shadow: 0 0 15px #0a8078;}
 .home-content .social-media a:hover svg {
     stroke: #00ffee;}
@@ -111,7 +117,8 @@ section {
     letter-spacing: .12em;
     box-shadow: 0 0 20px #0a8078;
     text-indent: 0;
-    color: #00ffee;} 
+    color: #00ffee;}
+     
 /* Contact Me  */
 .hero{
     width: 100%;
@@ -190,3 +197,47 @@ textarea:focus {
 .btn1:focus-visible{
     transform: translateY(-1.25rem);
     transition: transform ms; /* going up */}
+
+#cards {
+    display:flex;
+    flex-wrap: wrap;
+    gap:8px;
+    width: calc(100%-20px);
+    
+}
+.card:hover{
+    box-shadow: 0 0 20px #0a8078;
+}
+.card{
+    background-color: rgba(145, 145, 145, 0.02);
+    border: 1px solid #0ea89d;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    height: 450px;
+    width: 290px;
+    overflow: hidden;
+    background-size: cover;
+}
+.card::before {
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y),
+        rgba(255, 255, 255, 0.06), 
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.card img {
+    max-width: 110%;
+    max-height: 100%;
+    background-size: cover;
+  }
+  

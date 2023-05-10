@@ -1,3 +1,4 @@
+bootstrap
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,7 @@
 </head>
 
 <body>
+    
 <!-- navbar design -->
     <header class="header">
         <a href="#" class = "logo">HN03</a>
@@ -55,9 +57,7 @@
             <a href="bones/bones.html" class="btn" target=_blank title="Go to a simplified website">
                 Simple View
             </a>
-        
         </div>
-        
     </section>
 <!-- about me design -->
     <section class="about" id="about">
@@ -73,7 +73,7 @@
         <h1>Hello</h1>
     </section>
 <!-- contact design -->
-<section class="contact" id="contact">
+    <section class="contact" id="contact">
     <div class="home-content" style="display: flex; align-items: center;">
         <h3 style="display: flex; align-items: center; margin-right: 1rem;">Let's connect! 
             <svg xmlns="http://www.w3.org/2000/svg" class="lego" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0ea89d" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -93,24 +93,24 @@
             <div class="row">
                 <!-- name -->
                 <div class="input-group">
-                    <input type="text" id="name" required>
+                    <input type="text" name="name" id="name" required>
                 <label for="name" style="font-size: 1.5rem;">Name</label>
                 </div>
                 <!-- email -->
                 <div class="input-group">
-                    <input type="email" id="email" required>
+                    <input type="email" name="email" id="email" required>
                 <label for="email" style="font-size: 1.5rem;">Email address</label>
                 </div>
             </div>
             <!-- subject -->
             <div class="input-group">
-                <input type="text" id="subject" required>
+                <input type="text" name="subject" id="subject" required>
             <label for="subject" style="font-size: 1.5rem;">Subject</label>
             </div>
             <br>
             <!-- message -->
             <div class="input-group">
-                <textarea id="message" rows="8" required></textarea>
+                <textarea name ="message" id="message" rows="8" required></textarea>
             <label for="message" style="font-size: 1.5rem;">Message</label>
             </div>
             <br>
@@ -121,11 +121,21 @@
     
     </div>
     
-</section>
+    </section>
 <!-- interests design -->
     <section class="interests" id="interests">
-        <h1>Hello</h1>
+        <br>
+        <h3 style="font-size: 3.2rem;">Here are some things I'm currently interested in:</h3>
+        <br><br>
+        <div id="cards">
+            <div class="card"> <img src="images/injustice.jpg" alt="Card image"> </div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
     </section>
-    ><script src="index.js"></script>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 </html>
