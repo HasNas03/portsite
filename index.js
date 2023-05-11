@@ -1,15 +1,36 @@
-// code for interests cards
+// const track = document.getElementById("image-track");
 
-const handleOnMouseMove = e => { 
-    const { currentTarget: target } = e;
+// window.onmousedown = e => {
+//     track.dataset.mouseDownAt = e.clientX;
+// }
 
-    const rect = target.getBoundingClientRect(),
-        x = e.clientX - rect.left,
-        y = e.clienty - rect.top;
+// window.onmouseup = () => {
+//     track.dataset.mouseDownAt = "0";
+//     track.dataset.prevPercentage = track.dataset.percentage;
+// }
 
-    target.style.setProperty("--mouse-x", `${x}px`);
-    target.style.setProperty("--mouse-y", `${y}px`);
-}
-for(const card of document.querySelectorAll(".card")) { 
-    card.onmousemove = e => handleOnMouseMove(e);
-}
+// window.onmousemove = e => {
+//     if(track.dataset.mouseDownAt === "0") return;
+
+//     const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX;
+//     const maxDelta = window.innerWidth / 2;
+
+//     const percentage = (mouseDelta / maxDelta) * -100;
+//     const nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
+    
+//     // Ensure nextPercentage does not exceed the range of -100 to 0
+//     const clampedNextPercentage = Math.min(Math.max(nextPercentage, -100), 0);
+
+//     track.dataset.percentage = clampedNextPercentage;
+//     // track.style.transform = `translate(${clampedNextPercentage}%, -50%)`;
+//     track.animate({
+//         transform: `translate(${nextPercentage}%, -50%)`
+//     }, {duration: 1200, fill: "forwards"});
+
+//     for(const image of track.getElementsByClassName("image")) {
+//         // image.style.objectPosition = `${nextPercentage} 50%`;
+//         image.animate({
+//             objectPosition: `${100 + nextPercentage}% center`
+//         }, {duration: 1200, fill: "forwards" });
+//     }
+// }
