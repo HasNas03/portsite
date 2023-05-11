@@ -34,6 +34,7 @@ body{
     display: flex;
     align-items: center;
     z-index: 100;
+    justify-content: flex-end;
     transition: .5s;}
 .logo {
     font-size: 2.5rem;
@@ -42,10 +43,12 @@ body{
     cursor: default;
     margin-right: auto;}
 .navbar a {
+    transition: all 0.5s ease 0s;
     position: relative;
     font-size: 1.7rem;
     color: var(--white-color);
     font-weight: 500; margin-right: 3.5rem;}
+
 .navbar a.active::before {
     content: '';
     position: absolute;
@@ -201,43 +204,27 @@ textarea:focus {
 #cards {
     display:flex;
     flex-wrap: wrap;
-    gap:8px;
-    width: calc(100%-20px);
-    
+    gap:8px; 
 }
 .card:hover{
+    transition: .1s ease;
     box-shadow: 0 0 20px #0a8078;
 }
 .card{
-    background-color: rgba(145, 145, 145, 0.02);
-    border: 1px solid #0ea89d;
+    border: 2px solid #0ea89d;
     border-radius: 10px;
-    cursor: pointer;
     position: relative;
-    height: 450px;
     width: 290px;
+    height: 440px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-size: cover;
-}
-.card::before {
-    background: radial-gradient(
-        800px circle at var(--mouse-x) var(--mouse-y),
-        rgba(255, 255, 255, 0.06), 
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    z-index: 2;
-}
 
+}
 .card img {
-    max-width: 110%;
-    max-height: 100%;
-    background-size: cover;
+    max-width: 300px;
+    max-height: 450px;
+    size:100%;
   }
+
   

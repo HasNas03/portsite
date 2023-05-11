@@ -1,1 +1,38 @@
-a, a:hover, a:active, a:visited { color: white; }
+*{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover, a:active, a:visited { 
+    color: white; 
+    text-decoration: none;
+}
+
+.btn2 {
+    width: 10px;
+    height: 5px;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 2.8rem;
+    background: transparent;
+    border: 3px solid #0ea89d;
+    left: 10px;
+    position: relative;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-indent: 0;
+    transition: .5s;
+    white-space: nowrap;
+    transform: scaleX(1.1);
+    text-align: center;
+}
+
+.btn2:hover {
+    transition-delay: .1s;
+    background: #0a8078;
+    box-shadow: 0 0 20px #0a8078;
+    color: #00ffee;
+}
