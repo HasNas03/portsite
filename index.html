@@ -19,7 +19,9 @@ bootstrap
             <a href="#about">About Me</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
+            <a href="#projects2">Projects2</a>
             <a href="#contact">Contact</a>
+            <a href="#interests">Interests</a>
             <!-- <a href="#interests">Interests</a> -->
         </nav>
     </header>
@@ -94,10 +96,51 @@ bootstrap
         </div>
     </section>
 <!-- projects design -->
-    <section class="projects" id="projects">
-        <h1>Hello</h1>
+    <section class="projects projhero" id="projects">
+        <div class="card-grid">
+            <a class="projcard" href="#">
+                <div class="projbackground" style="background-image: url(images/lsb2.avif);"></div>
+                <div class="projcontent">
+                    <h2 class="projheading">LSB-Steganography</h2>
+                </div>
+            </a>
+
+            <a class="projcard" href="#">
+                <div class="projbackground" style="background-image: url(images/treemap.png); background-size: 100%;"></div>
+                <div class="projcontent">
+                    <h2 class="projheading">File Path Treemap Visualizer</h2>
+                </div>
+            </a>
+
+            <a class="projcard" href="#">
+                <div class="projbackground" style="background-image: url(images/b.avif);"></div>
+                <div class="projcontent">
+                    <h2 class="projheading">Boggle Pro</h2>
+                </div>
+            </a>
+
+            <a class="projcard" href="#">
+                <div class="projbackground" style="background-image: url(images/fork.svg); background-color: grey;background-size: 140%; "></div>
+                <div class="projcontent">
+                    <h2 class="projheading">Parallel Bash Command Executor</h2>
+                </div>
+            </a>        
+        </div>
     </section>
-<!-- contact design -->
+
+<!-- projects design -->
+    <section class="projects2 projhero" id="projects2">
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- contact design -->
     <section class="contact" id="contact">
     <div class="home-content" style="display: flex; align-items: center;">
         <h3 style="display: flex; align-items: center; margin-right: 1rem;">Let's connect! 
@@ -136,7 +179,7 @@ bootstrap
             <!-- message -->
             <div class="input-group">
                 <textarea name ="message" id="message" rows="8" required></textarea>
-            <label for="message" style="font-size: 1.5rem;">What do you want to chat about?</label>
+            <label for="message" style="font-size: 1.5rem;">Message</label>
             </div>
             <br>
             <!-- submit button -->
@@ -149,26 +192,23 @@ bootstrap
     </section>
     
 <!-- interests design -->
-    <!-- <section class="interests" id="interests">
-        <br>
-        <h3 style="font-size: 3.2rem;">Some current interests:</h3>
-        <br><br>
-        <div id="cards">
-            <a href="https://dc.fandom.com/wiki/Injustice" target="_blank">
-                <div class="card"> <img src="images/injustice.jpg" alt="Card image"> </div>
-            </a>
-            <a href="" target="_blank">
-                <div class="card"> <img src="images/salkhan.png" alt="Card image"> </div>
-            </a>
-            <a href="" target="_blank">
-                <div class="card"> <img src="images/injustice.jpg" alt="Card image"> </div>
-            </a>
-            <a href="" target="_blank">
-                <div class="card"> <img src="images/inception.jpeg" alt="Card image"> </div>
-            </a>
+    <!-- <section class="interests projhero" id="interests">
+        <div class="card-grid">
+            <a class="projcard" href="https://dc.fandom.com/wiki/Injustice" target="_blank">
+                <div class="projbackground" style="background-image: url(images/injustice.jpg);"></div>
+                <div class="projcontent"></div></a>
+            <a class="projcard" href="#" target="_blank">
+                <div class="projbackground" style="background-image: url(images/injustice.jpg);"></div>
+                <div class="projcontent"></div></a>
+            <a class="projcard" href="https://www.businessinsider.com/ai-will-give-every-student-personalized-tutor-sal-khan-academy-2023-5" target="_blank">
+                <div class="projbackground" style="background-image: url(images/salman.webp);"></div>
+                <div class="projcontent"><h2 class="projheading">AI in Education</h2></div></a>
+            <a class="projcard" href="https://www.imdb.com/title/tt1375666/" target="_blank">
+                <div class="projbackground" style="background-image: url(images/inception.jpeg);"></div>
+                <div class="projcontent"></div></a>        
         </div>
     </section> -->
-
+    
     <script src="index.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <footer>

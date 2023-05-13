@@ -233,7 +233,6 @@ textarea:focus {
     size:100%;
   }
 
-
 /* back to top button */
 .back-to-top-btn {
     margin: 2.5rem 1.5rem 3rem 0;
@@ -261,12 +260,6 @@ textarea:focus {
 .back-to-top-btn:hover svg {
     stroke: #00ffee;}
 
-
-
-
-
-
-
 /* .interests2{
     background-color: black;
     margin:0rem;
@@ -292,5 +285,76 @@ textarea:focus {
 /* display: inline-flex; } */
 
 
-
+/* project cards */
+.projhero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    max-width: 1200px;
+    width: 100%; 
+}
+.projcard{
+    position: relative;
+    height: 450px;
+    
+}
+.projbackground{
+    position: absolute;
+    top:0;
+    border-radius: 7px;
+    left:0;
+    right:0;
+    bottom:0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.75) saturate(1,2) contrast(0.85);
+    transform: scale(1) translateZ(0);
+    transform-origin: center;
+    transition: filter 200ms linear,transform 200ms linear;
+}
+.projcard:hover .projbackground{
+    border-radius: 4px;
+    transition: .5s ease;
+    transform: scale(1.05) translateZ(0);
+    text-shadow: 2px 2px 20px #01211f;
+}
+.card-grid:hover > .projcard:not(:hover) .projbackground{
+    filter: brightness(0.4) saturate(1) contrast(1.2) blur(7px);
+}
+.projcontent{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:24px;
+}
+.projcontent .projcategory{
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.projcontent .projheading{
+    color: rgba(255,255,255,0.9);
+    font-size: 1.9rem;
+    line-height: 1.4;
+    text-shadow: 1px 1px 5px #024843;
+    
+}
+@media screen and (maxwidth: 960px){
+    .card-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+@media screen and (maxwidth: 460px){
+    .card-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+}
 
