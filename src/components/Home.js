@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return(
     <section className='home'>
-      <h1 className="sectiontitle">Hasan Nasir</h1>
+      <h1 className="sectiontitle">Hello there, I'm Hasan Nasir!</h1>
       <p className='desc'>Hello there! I'm a 3rd-year Computer Science and Statistics student with a passion for learning new technologies and building accessible apps for all. I'm open to learning new things and love chatting about movies, superheroes, and the Cloud!</p>
       {/* Links */}
       <div className='icons'>
