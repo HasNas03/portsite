@@ -1,0 +1,184 @@
+/* .App.css */
+:root {
+  --main-color: rgb(28, 43, 65);}
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+
+  background-image: url('/public/background.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  position: relative; /* Add this line to make sure body::before is positioned relative to the body */}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(28, 43, 65, 0.8);
+  z-index: -1; /* Move the overlay to the background */}
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the navbar span the entire width */
+  height: 60px; /* Increase the height of the navbar */
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: flex-end; /* Align text to the right */
+  align-items: center; /* Center text vertically */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  z-index: 2; /* Hide any content that exceeds the width */}
+.navbar ul {
+  list-style: none;
+  display: flex;}
+.navbar li {
+  margin-right: 20px;}
+/* Link Buttons */
+.btn {
+  padding-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 0; /* Start with zero opacity */
+  animation: fadeIn 1.5s ease-in-out forwards;}
+.btn:hover svg {
+  transition: .5s ease;
+  transform: scale(1.5);}
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0; /* Start with zero opacity */}
+    to {opacity: 1; /* End with full opacity */}}
+@keyframes slideIn {
+    from {transform: translateX(-100%); /* Start off-screen to the left */}
+    to {transform: translateX(0); /* End at the original position */}}
+/* Section title and description */
+section {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;}
+.sectiontitle {
+  font-size: 70px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  opacity: 0; /* Start with zero opacity */
+  animation: fadeIn 1.5s ease-in-out forwards; /* Apply the fadeIn animation */}
+.desc {
+    padding-left: 150px;
+    padding-right: 150px;
+    opacity: 0; /* Start with zero opacity */
+    animation: slideIn 1s ease-in-out forwards, fadeIn 1s ease-in-out forwards; /* Apply both animations */}
+
+.skill-images-container {
+      padding-left: 250px;
+      padding-right: 250px;
+      justify-content: center;}   
+.skill-image {
+      width: 110px; /* Set your desired width */
+      height: auto; /* Set your desired height */
+      margin: 25px; /* Add margin for spacing */}
+  
+  
+
+
+
+      .projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .projects .projectTitle {
+        text-align: center;
+        color: #3e497a;
+      }
+      
+      .projectList {
+        width: 70vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+      }
+      
+      /* MENU ITEM STYLING */
+      
+      .projectItem {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        width: 300px;
+        height: 350px; /* Adjust the height to accommodate the additional content */
+        margin: 40px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        overflow: hidden; /* Ensure content does not overflow */
+      }
+      .projectItem:hover {
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in;
+        cursor: pointer;
+      }
+      
+      .projectItem .bgImage {
+        border-radius: 15px;
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .projectItem .content {
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+
+      }
+      
+      .projectItem h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+      }
+      
+@media only screen and (max-width: 1300px) {
+        .projectList {
+          grid-template-columns: 1fr 1fr;}}  
+@media only screen and (max-width: 800px) {
+        .projectList {
+          grid-template-columns: 1fr;}}    
+@media only screen and (max-width: 800px) {
+        .projectList {
+          width: 100%;}
+        .projectItem {
+          width: 300px;
+          height: 300px;}}
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
