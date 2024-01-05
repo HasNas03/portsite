@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portsite/static/css/main.1c66a1e4.css",
+    "main.css": "/portsite/static/css/main.9f4092da.css",
     "main.js": "/portsite/static/js/main.26168efc.js",
     "static/media/background.jpg": "/portsite/static/media/background.6b466f06df1526cc1b0b.jpg",
     "static/media/arcgis.png": "/portsite/static/media/arcgis.edb119dde975eae8650b.png",
@@ -15,11 +15,11 @@
     "static/media/boggle.avif": "/portsite/static/media/boggle.d60b9b794d4b301534ea.avif",
     "static/media/javascript.png": "/portsite/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/portsite/index.html",
-    "main.1c66a1e4.css.map": "/portsite/static/css/main.1c66a1e4.css.map",
+    "main.9f4092da.css.map": "/portsite/static/css/main.9f4092da.css.map",
     "main.26168efc.js.map": "/portsite/static/js/main.26168efc.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c66a1e4.css",
+    "static/css/main.9f4092da.css",
     "static/js/main.26168efc.js"
   ]
 }
