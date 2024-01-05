@@ -27,15 +27,16 @@ body::before {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Make the navbar span the entire width */
-  height: 60px; /* Increase the height of the navbar */
-  background-color: var(--main-color);
+  width: 100%;
+  height: 60px;
   display: flex;
-  justify-content: flex-end; /* Align text to the right */
-  align-items: center; /* Center text vertically */
+  justify-content: flex-end;
+  align-items: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  z-index: 2; /* Hide any content that exceeds the width */}
+  z-index: 10;
+  background: var(--main-color)
+}
 .navbar ul {
   list-style: none;
   display: flex;}
@@ -70,7 +71,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 400px;}
+  padding-bottom: 150px;}
 .sectiontitle {
   font-size: 70px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -87,14 +88,13 @@ section {
 .desc2{
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.2);
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 10px;
   border-width: 10%;
 }
 .firsttitle{
       padding-top: 200px;
   }
-
 .othertitle{
   padding-top: 40px;
 }
@@ -203,13 +203,6 @@ section {
         .projectItem {
           width: 300px;
           height: 300px;}}
-  
-  
-  
-  
-  
-  
-  
 
 
 
