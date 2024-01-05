@@ -80,9 +80,8 @@ section {
     animation: slideIn 1s ease-in-out forwards, fadeIn 1s ease-in-out forwards; /* Apply both animations */}
 
 .skill-images-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 600px; /* Set a maximum width if needed */}  
+      padding-left: 350px;
+      padding-right: 350px;}   
 .skill-image {
       width: 110px; /* Set your desired width */
       height: auto; /* Set your desired height */
@@ -106,8 +105,8 @@ section {
       }
       
       .projectList {
-        width: 70vw;
-        height: auto;
+        padding-left: 250px;
+        padding-right: 250px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
