@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/portsite/static/css/main.3ddbcd24.css",
-    "main.js": "/portsite/static/js/main.71fdb0c2.js",
+    "main.css": "/portsite/static/css/main.e4ea2107.css",
+    "main.js": "/portsite/static/js/main.13c7548d.js",
     "static/media/background.jpg": "/portsite/static/media/background.6b466f06df1526cc1b0b.jpg",
     "static/media/exercisebuddy.png": "/portsite/static/media/exercisebuddy.2cbc9327f7735b535ace.png",
     "static/media/arcgis.png": "/portsite/static/media/arcgis.edb119dde975eae8650b.png",
     "static/media/site.jpg": "/portsite/static/media/site.5ac43fdfe210ab55f90d.jpg",
-    "static/media/tetris.jpg": "/portsite/static/media/tetris.3c03a2b7c490a38f3a97.jpg",
-    "static/media/todo.png": "/portsite/static/media/todo.c984ee8f645550abfac4.png",
+    "static/media/todo.png": "/portsite/static/media/todo.76cc06d862197e67b3c2.png",
+    "static/media/tetris.webp": "/portsite/static/media/tetris.da33c32fedc23c9f330d.webp",
     "static/media/postgresql.png": "/portsite/static/media/postgresql.a7fa39912c91e079e90b.png",
+    "static/media/maple.png": "/portsite/static/media/maple.04b412de3cc3815988fe.png",
     "static/media/python.png": "/portsite/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/react.png": "/portsite/static/media/react.3bf6fb4b18b1f904676d.png",
     "static/media/java.png": "/portsite/static/media/java.ddf8676bd569fe01ab44.png",
@@ -16,11 +17,11 @@
     "static/media/boggle.avif": "/portsite/static/media/boggle.d60b9b794d4b301534ea.avif",
     "static/media/javascript.png": "/portsite/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/portsite/index.html",
-    "main.3ddbcd24.css.map": "/portsite/static/css/main.3ddbcd24.css.map",
-    "main.71fdb0c2.js.map": "/portsite/static/js/main.71fdb0c2.js.map"
+    "main.e4ea2107.css.map": "/portsite/static/css/main.e4ea2107.css.map",
+    "main.13c7548d.js.map": "/portsite/static/js/main.13c7548d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ddbcd24.css",
-    "static/js/main.71fdb0c2.js"
+    "static/css/main.e4ea2107.css",
+    "static/js/main.13c7548d.js"
   ]
 }
