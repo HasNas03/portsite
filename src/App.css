@@ -41,9 +41,12 @@ body::before {
   display: flex;}
 .navbar li {
   margin-right: 20px;}
+.logo {
+    margin-left: 40px; /* Adjust the margin as needed */
+    margin-right: 1150px;
+    height: 40px; /* Set the height of your logo */}
 /* Link Buttons */
 .btn {
-  padding-top: 100px;
   margin-right: 20px;
   margin-left: 20px;
   opacity: 0; /* Start with zero opacity */
@@ -66,7 +69,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;}
+  text-align: center;
+  padding-bottom: 400px;}
 .sectiontitle {
   font-size: 70px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -76,8 +80,43 @@ section {
 .desc {
     padding-left: 150px;
     padding-right: 150px;
+    font-size: 1.5em;
     opacity: 0; /* Start with zero opacity */
     animation: slideIn 1s ease-in-out forwards, fadeIn 1s ease-in-out forwards; /* Apply both animations */}
+
+.desc2{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  border-radius: 10px;
+  border-width: 10%;
+}
+.firsttitle{
+      padding-top: 200px;
+  }
+
+.othertitle{
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .skill-images-container {
       padding-left: 350px;
@@ -85,10 +124,10 @@ section {
 .skill-image {
       width: 110px; /* Set your desired width */
       height: auto; /* Set your desired height */
-      margin: 25px; /* Add margin for spacing */}
+      margin: 20px; /* Add margin for spacing */
+    padding-bottom: 30px;
+    padding-right: 30px;}
   
-  
-
 
 
       .projects {

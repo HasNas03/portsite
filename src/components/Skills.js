@@ -16,8 +16,8 @@ function Skills() {
     
     return (
         <section className='skills'>
-            <h1 className="sectiontitle">Skills</h1>
-            <p className='desc'>Here are some of my technical skills</p>
+            <h1 className="sectiontitle othertitle">Skills</h1>
+            <p className='desc desc2'>Here are some of my technical skills</p>
 
             <div className="skill-images-container">
                 <img src={pythonImage} alt="Python" className="skill-image" />
