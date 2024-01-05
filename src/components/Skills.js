@@ -11,6 +11,7 @@ import arcgisImage from '../assets/arcgis.png';
 import javaImage from '../assets/java.png';
 
 
+
 function Skills() {
     
     return (
