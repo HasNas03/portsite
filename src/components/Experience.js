@@ -5,7 +5,7 @@ import boggle from '../assets/boggle.avif';
 import site from '../assets/site.jpg';
 import tetris2 from '../assets/tetris.webp';
 import todo from '../assets/todo.png';
-import exerciseImage from '../assets/exercisebuddy.png'
+import exerciseImage from '../assets/e.png'
 
 
 
