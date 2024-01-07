@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portsite/static/css/main.03f24811.css",
-    "main.js": "/portsite/static/js/main.eae3af83.js",
+    "main.css": "/portsite/static/css/main.749c0536.css",
+    "main.js": "/portsite/static/js/main.8a1f335f.js",
     "static/media/background.jpg": "/portsite/static/media/background.6b466f06df1526cc1b0b.jpg",
-    "static/media/exercisebuddy.png": "/portsite/static/media/exercisebuddy.2cbc9327f7735b535ace.png",
+    "static/media/e.png": "/portsite/static/media/e.3f8be278f3bf66f97319.png",
     "static/media/arcgis.png": "/portsite/static/media/arcgis.edb119dde975eae8650b.png",
     "static/media/site.jpg": "/portsite/static/media/site.5ac43fdfe210ab55f90d.jpg",
     "static/media/todo.png": "/portsite/static/media/todo.76cc06d862197e67b3c2.png",
@@ -17,11 +17,11 @@
     "static/media/boggle.avif": "/portsite/static/media/boggle.d60b9b794d4b301534ea.avif",
     "static/media/javascript.png": "/portsite/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/portsite/index.html",
-    "main.03f24811.css.map": "/portsite/static/css/main.03f24811.css.map",
-    "main.eae3af83.js.map": "/portsite/static/js/main.eae3af83.js.map"
+    "main.749c0536.css.map": "/portsite/static/css/main.749c0536.css.map",
+    "main.8a1f335f.js.map": "/portsite/static/js/main.8a1f335f.js.map"
   },
   "entrypoints": [
-    "static/css/main.03f24811.css",
-    "static/js/main.eae3af83.js"
+    "static/css/main.749c0536.css",
+    "static/js/main.8a1f335f.js"
   ]
 }
