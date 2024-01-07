@@ -5,7 +5,7 @@ function Home() {
   return(
     <section className='home'>
       <h1 className="sectiontitle firsttitle">Hasan Nasir</h1>
-      <p className='desc'>Hello there! I'm a 3rd-year Computer Science and Statistics student at the University of Toronto with a passion for learning new technologies. I'm open to learning new things and love chatting about movies, superheroes, and the Cloud!</p>
+      <p className='desc'>Hello there! I'm a 3rd-year Computer Science and Statistics student at the University of Toronto with a passion for coding and new technologies. I'm open to learning new things and love chatting about movies, superheroes, and the Cloud!</p>
       {/* Links */}
       <div className='icons'>
         <a class="btn first" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-description" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /><path d="M9 17h6" /><path d="M9 13h6" /></svg></a>

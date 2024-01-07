@@ -99,36 +99,24 @@ section {
   padding-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .skill-images-container {
-      padding-left: 350px;
-      padding-right: 350px;}   
-.skill-image {
-      width: 110px; /* Set your desired width */
-      height: auto; /* Set your desired height */
-      margin: 20px; /* Add margin for spacing */
-    padding-bottom: 30px;
-    padding-right: 30px;}
-  
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Distribute items evenly on each line */
+  padding: 0 300px; /* Adjust padding */}
 
+.skill-item {
+  text-align: center;
+  margin: 20px; /* Add margin for spacing between items */}
+
+.skill-image {
+  width: 110px;
+  height: auto;
+  margin-bottom: 10px; /* Adjust margin for spacing between image and text */}
+
+.skill-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;}
 
       .projects {
         width: 100%;

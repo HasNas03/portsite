@@ -13,6 +13,17 @@ import javaImage from '../assets/java.png';
 
 
 function Skills() {
+    const skillsData = [
+        { image: pythonImage, text: 'Python' },
+        { image: javascriptImage, text: 'JavaScript' },
+        { image: reactImage, text: 'React' },
+        { image: javaImage, text: 'Java' },
+        { image: postgresqlImage, text: 'PostgreSQL' },
+        { image: gitImage, text: 'Git' },
+        { image: arcgisImage, text: 'ArcGIS Pro' },
+        { image: mongodbImage, text: 'MongoDB' },
+    ];
+
     
     return (
         <section className='skills'>
@@ -20,18 +31,13 @@ function Skills() {
             <p className='desc desc2'>Here are some of my technical skills</p>
 
             <div className="skill-images-container">
-                <img src={pythonImage} alt="Python" className="skill-image" />
-                <img src={javascriptImage} alt="JavaScript" className="skill-image" />
-                <img src={reactImage} alt="React" className="skill-image" />
-                <img src={javaImage} alt="Java" className="skill-image" />
-                <img src={postgresqlImage} alt="PostgreSQL" className="skill-image" />
-                <img src={gitImage} alt="Git" className="skill-image" />
-                <img src={arcgisImage} alt="ArcGIS" className="skill-image" />
-                <img src={mongodbImage} alt="MongoDB" className="skill-image" />
-                
+                {skillsData.map((skill, index) => (
+                    <div key={index} className="skill-item">
+                        <img src={skill.image} alt={skill.text} className="skill-image" />
+                        <p className="skill-text">{skill.text}</p>
+                    </div>
+                ))}
             </div>
-    
-
         </section>
     );
 }
