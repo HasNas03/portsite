@@ -6,7 +6,7 @@ export default function Card({image, name, paragraph}) {
           {/* background image */}
           <div style={{ backgroundImage: `url(${image})` }} className='bgImage' />
           <div className="content">
-            <h1>{name}</h1>
+            <h1 className='projtitle'>{name}</h1>
             <p>{paragraph}</p>
           </div>
         </div>

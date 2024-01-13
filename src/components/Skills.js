@@ -9,8 +9,10 @@ import postgresqlImage from '../assets/postgresql.png';
 import gitImage from '../assets/git.png';
 import arcgisImage from '../assets/arcgis.png';
 import javaImage from '../assets/java.png';
-
-
+import tableauImage from '../assets/tableau.png';
+import pandasImage from '../assets/pandas.png';
+import jupyterImage from '../assets/jupyter.png';
+import codeImage from '../assets/code.png';
 
 function Skills() {
     const skillsData = [
@@ -19,9 +21,13 @@ function Skills() {
         { image: reactImage, text: 'React' },
         { image: javaImage, text: 'Java' },
         { image: postgresqlImage, text: 'PostgreSQL' },
-        { image: gitImage, text: 'Git' },
-        { image: arcgisImage, text: 'ArcGIS Pro' },
+        { image: pandasImage, text: 'pandas' },
         { image: mongodbImage, text: 'MongoDB' },
+        { image: arcgisImage, text: 'ArcGIS Pro' },
+        { image: tableauImage, text: 'Tableau' },
+        { image: gitImage, text: 'Git' },
+        { image: jupyterImage, text: 'Jupyter Notebook' },
+        { image: codeImage, text: 'HTML/CSS' }
     ];
 
     
