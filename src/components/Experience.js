@@ -33,7 +33,7 @@ function Experience() {
           </a>
           {/* link to emissions*/}
           <a href='https://github.com/HasNas03/Jupyter-notebooks/blob/main/emissions/Carbon%20Emissions.ipynb' style={{ textDecoration: 'none', color: 'white' }} target="_blank">
-          <Card name="CO2 Emission Data Analysis ↗" paragraph="Python | pandas | Jupyter Notebook" image={carImage}/>
+          <Card name="CO2 Emissions Statistical Analysis ↗" paragraph="Python | pandas | Jupyter Notebook" image={carImage}/>
           </a>
           {/* link to covid tableau*/}
           <a href='https://public.tableau.com/views/COVIDDashboard_17050443722110/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link' style={{ textDecoration: 'none', color: 'white' }} target="_blank">
