@@ -5,10 +5,10 @@ import boggle from '../assets/boggle.avif';
 import site from '../assets/site.jpg';
 import tetris2 from '../assets/tetris.webp';
 import todo from '../assets/todo.png';
-import exerciseImage from '../assets/e.png'
 import houseImage from '../assets/house.jpg'
 import covidImage from '../assets/covid.jpg'
 import carImage from '../assets/car.jpg'
+import suiteImage from '../assets/suite.png'
 
 
 function Experience() {
@@ -24,7 +24,9 @@ function Experience() {
           <a href='https://github.com/HasNas03/Jupyter-notebooks/blob/main/Site%20Suitability%20Analysis%20Report%20-%20Personal.pdf' style={{ textDecoration: 'none', color: 'white' }} target="_blank">
           <Card name="Site Suitability Analysis ↗" paragraph="postgreSQL | QGIS | PostGIS" image={site}/>
           </a>
-          <Card name="ExerciseBuddy" paragraph="MongoDB | Express.js | Node.js JavaScript | React.js | HTML/CSS" image={exerciseImage}/>
+          <a href='http://rekoghosting.s3-website.ca-central-1.amazonaws.com' style={{ textDecoration: 'none', color: 'white' }} target="_blank">
+          <Card name="Facial Rekognizer ↗" paragraph="React.js | AWS Rekognition, S3, Lambda, DynamoDB" image={suiteImage}/>
+          </a>
           <Card name="Boggle Pro" paragraph="Java | JavaFX" image={boggle}/>
           <Card name="Tetris" paragraph="Java | JavaFX" image={tetris2}/>
           {/* link to to do*/}

@@ -13,6 +13,7 @@ import tableauImage from '../assets/tableau.png';
 import pandasImage from '../assets/pandas.png';
 import jupyterImage from '../assets/jupyter.png';
 import codeImage from '../assets/code.png';
+import awsImage from '../assets/aws.png';
 
 function Skills() {
     const skillsData = [
@@ -22,12 +23,13 @@ function Skills() {
         { image: javaImage, text: 'Java' },
         { image: postgresqlImage, text: 'PostgreSQL' },
         { image: pandasImage, text: 'pandas' },
+        { image: awsImage, text: 'AWS' },
         { image: mongodbImage, text: 'MongoDB' },
         { image: arcgisImage, text: 'ArcGIS Pro' },
         { image: tableauImage, text: 'Tableau' },
         { image: gitImage, text: 'Git' },
         { image: jupyterImage, text: 'Jupyter Notebook' },
-        { image: codeImage, text: 'HTML/CSS' }
+        
     ];
 
     
