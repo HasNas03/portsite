@@ -12,7 +12,7 @@ import javaImage from '../assets/java.png';
 import tableauImage from '../assets/tableau.png';
 import pandasImage from '../assets/pandas.png';
 import jupyterImage from '../assets/jupyter.png';
-import codeImage from '../assets/code.png';
+// import codeImage from '../assets/code.png';
 import awsImage from '../assets/aws.png';
 
 function Skills() {
