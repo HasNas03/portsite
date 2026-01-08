@@ -1,5 +1,5 @@
 import React from 'react';
-import maple from '../assets/maple.png'
+// import maple from '../assets/maple.png'
 
 function Home() {
   return(
