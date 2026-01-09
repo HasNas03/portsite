@@ -1,5 +1,5 @@
 // Skills.js
-// import React from 'react';
+import React from 'react';
 
 // import reactImage from '../assets/react.png';
 import pythonImage from '../assets/python.png'; // Import the images for each skill
