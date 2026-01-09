@@ -50,7 +50,7 @@ body::before {
   padding: 4px 8px; /* Add padding inside the border */
   transition: background-color 0.3s ease; /* Smooth transition */}
 .navbar li:hover {
-  background-color: rgba(21, 149, 223, 0.8); /* Add hover effect */
+  background-color: rgba(97, 192, 248, 0.8); /* Add hover effect */
 }
 
 .logo {
