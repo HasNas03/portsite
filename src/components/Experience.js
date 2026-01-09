@@ -19,29 +19,32 @@ function Experience() {
 
       <div className='projects'>
         <div className='projectList'>
+          {/* treemap*/}
           <Card name="FilePath Treemap Visualizer" paragraph="Python | pygame" image={treemap}/>
-          {/* link to site suitability*/}
+          {/* site suitability*/}
           <a href='https://github.com/HasNas03/Jupyter-notebooks/blob/main/Site%20Suitability%20Analysis%20Report%20-%20Personal.pdf' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
           <Card name="Site Suitability Analysis ↗" paragraph="postgreSQL | QGIS | PostGIS" image={site}/>
           </a>
-          <a href='http://rekoghosting.s3-website.ca-central-1.amazonaws.com' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
-          <Card name="Facial Rekognizer ↗" paragraph="React.js | AWS Rekognition, S3, Lambda, DynamoDB" image={suiteImage}/>
+          {/* rekognition*/}
+          <Card name="Facial Rekognizer" paragraph="React.js | AWS Rekognition, S3, Lambda, DynamoDB" image={suiteImage}/>
           </a>
-          <Card name="Boggle Pro" paragraph="Java | JavaFX" image={boggle}/>
+          {/* boggle pro*/}
+          <Card name="Boggle Pro ↗" paragraph="Java | JavaFX" image={boggle}/>
+          {/* tetris*/}
           <Card name="Tetris" paragraph="Java | JavaFX" image={tetris2}/>
-          {/* link to to do*/}
-          <a href='https://reactchecklist.netlify.app/' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
+          {/* to do*/}
+          <a href='https://github.com/HasNas03/to-do-list' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
           <Card name="To-Do App ↗" paragraph="JavaScript | React.js | HTML/CSS" image={todo}/>
           </a>
-          {/* link to emissions*/}
+          {/* emissions*/}
           <a href='https://github.com/HasNas03/Jupyter-notebooks/blob/main/emissions/Carbon%20Emissions.ipynb' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
           <Card name="CO2 Emissions Statistical Analysis ↗" paragraph="Python | pandas | Jupyter Notebook" image={carImage}/>
           </a>
-          {/* link to covid tableau*/}
+          {/* covid tableau*/}
           <a href='https://public.tableau.com/views/COVIDDashboard_17050443722110/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
           <Card name="2020 COVID Cases Interactive Dashboard ↗" paragraph="Tableau" image={covidImage}/>
           </a>
-          {/* link to house tableau*/}
+          {/* house tableau*/}
           <a href='https://public.tableau.com/views/HouseSaleDashboard_17050002821300/HouseSaleDashboard?:language=en-US&:display_count=n&:origin=viz_share_link' style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
           <Card name="Real Estate Interactive Dashboard ↗" paragraph="Tableau" image={houseImage}/>
           </a>
