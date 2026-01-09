@@ -7,7 +7,7 @@ export default function Card({image, name, paragraph}) {
           <div style={{ backgroundImage: `url(${image})` }} className='bgImage' />
           <div className="content">
             <h1 className='projtitle'>{name}</h1>
-            <p>{paragraph}</p>
+            <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
           </div>
         </div>
       );

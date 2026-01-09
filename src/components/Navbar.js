@@ -8,8 +8,9 @@ function Navbar() {
       <img src={maple} alt="Logo" className="logo" />
       <ul>
         <li className='navtext'><Link to="home" smooth={true} duration={500}>Home</Link></li>
+        <li className='navtext'><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
         <li className='navtext'><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-        <li className='navtext'><Link to="experience" smooth={true} duration={500}>Projects</Link></li>
+        <li className='navtext'><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
       </ul>
     </nav>
   );
