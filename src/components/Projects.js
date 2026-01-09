@@ -4,7 +4,7 @@ import treemap from '../assets/treemap.png';
 import boggle from '../assets/boggle.avif';
 import site from '../assets/site.jpg';
 import tetris2 from '../assets/tetris.webp';
-import todo from '../assets/todo.png';
+// import todo from '../assets/todo.png';
 import houseImage from '../assets/house.jpeg'
 import covidImage from '../assets/covid.jpg'
 import carImage from '../assets/car.jpg'

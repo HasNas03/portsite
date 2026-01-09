@@ -1,17 +1,17 @@
 // Skills.js
-import React from 'react';
+// import React from 'react';
 
-import reactImage from '../assets/react.png';
+// import reactImage from '../assets/react.png';
 import pythonImage from '../assets/python.png'; // Import the images for each skill
-import javascriptImage from '../assets/javascript.png';
-import mongodbImage from '../assets/mongodb.png';
+// import javascriptImage from '../assets/javascript.png';
+// import mongodbImage from '../assets/mongodb.png';
 import postgresqlImage from '../assets/postgresql.png';
 import gitImage from '../assets/git.png';
 import arcgisImage from '../assets/arcgis.png';
 import javaImage from '../assets/java.png';
-import tableauImage from '../assets/tableau.png';
-import pandasImage from '../assets/pandas.png';
-import jupyterImage from '../assets/jupyter.png';
+// import tableauImage from '../assets/tableau.png';
+// import pandasImage from '../assets/pandas.png';
+// import jupyterImage from '../assets/jupyter.png';
 import springbootImage from '../assets/springboot.png';
 import terraformImage from '../assets/terraform.png';
 import dockerImage from '../assets/docker.png';
