@@ -5,7 +5,7 @@ import rbc from '../assets/rbc.png'
 
 function Experience() {
   return (
-    <section className='Experience'>
+    <section className='experience'>
       <h1 className="sectiontitle othertitle">Experience</h1>
       <div className='Experience'>
         <div className='expList'>
