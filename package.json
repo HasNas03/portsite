@@ -1,5 +1,5 @@
 {
-  "name": "portsite",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "react-scroll": "^1.9.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://HasNas03.github.io/portsite",
+  "homepage": "https://HasNas03.github.io/portfolio",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
